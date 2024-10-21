@@ -79,7 +79,7 @@ For part two of the assignment, I implemented **Algolia Insights** to track user
 
 Every time a user clicks one of these buttons, the corresponding event is sent to Algolia, giving us insights into user behavior.
 
-## Potential Improvements
+### Potential Improvements
 
 1. **Personalized Recommendations**:
 - We could set up a recommendation engine that suggests products to users based on their past behavior, clicks, and conversions. By using Algolia's insights, we can provide tailored suggestions that enhance the user experience and drive sales.
@@ -105,6 +105,29 @@ Every time a user clicks one of these buttons, the corresponding event is sent t
 
 ### Technical Assignment - Part Three (0.5 hrs)
 Spencer and Williams want some guidance on their optimal relevance set up. In the Algolia index that you have uploaded the data and events to, configure the relevance so that when users are searching they are seeing the results that make most sense.
+
+### Summary
+
+#### 1. Custom Ranking
+I set up custom ranking to prioritize products based on key performance metrics like popularity and customer ratings. This ensures that users see the most sought-after products at the top of their search results.
+
+#### 2. Searchable Attributes
+I configured searchable attributes to include essential fields such as product name, brand, and description. This improvement allows users to find products more effectively based on their queries.
+
+#### 3. Typo Tolerance
+I adjusted typo tolerance settings to strike a balance between accommodating common typing errors and enforcing strict matches for critical fields, such as SKU numbers. This change enhances user experience by reducing frustration from minor mistakes while maintaining accuracy.
+
+#### 4. Synonyms and One-Way Synonyms
+I implemented a system for synonyms to cover different terms users might use. This way, users can find the products they want regardless of the specific words they choose.
+
+### Potential Improvements
+
+### Personalization
+The client is interested in utilizing Algolia’s Personalization feature to provide tailored search results based on user behavior. Implementing this feature could significantly boost user engagement, though it's currently not part of their plan.
+
+### Enhanced Faceting
+I suggested implementing search bars for each facet, such as brands or categories, to allow users to search for specific options not immediately visible. This would make it easier for them to find what they are looking for.
+
 
 ### Questions (0.5 hrs)
 

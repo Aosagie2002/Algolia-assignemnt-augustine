@@ -30,7 +30,9 @@ Here is a link to the relevant documentation for managing indices programmatical
 Please let me know if this helps or if you have further questions!
 
 Best regards,
+
 Augustine Osagie
+
 Customer Success Engineer @ Algolia
 
 ---
@@ -64,7 +66,9 @@ You can find more information about the record size limitations in our documenta
 If adjusting the metadata is not feasible, I’m here to help explore other solutions. Please let me know how you’d like to proceed or if you need further assistance.
 
 Warm regards,
+
 Augustine Osagie
+
 Customer Success Engineer @ Algolia
 
 ---
@@ -100,7 +104,9 @@ Here are a few steps you can take:
 If you need further assistance or would like to go through this together, I'm available for a call at your convenience. Just let me know what works for you!
 
 Kindly,
+
 Augustine Osagie
+
 Customer Success Engineer @ Algolia
 
 ---

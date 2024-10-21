@@ -11,6 +11,15 @@ If you want to know how we will judge the assignment, you can view our scoring r
 ## Brief
 Spencer and Williams have provided us with raw product data and a repo of their front end code. They have asked us for help to enhance their implementation and have asked that we create an Algolia application to demonstrate this to them.
 
+## Setup Instructions
+
+Create a `.env` file and fill in the following fields with your application credentials: `ALGOLIA_APP_ID=your_algolia_app_id`, `ALGOLIA_API_KEY=your_algolia_api_key`, `ALGOLIA_INDEX=your_algolia_index_name`.
+1. Next, install the necessary dependencies by running `npm install`.
+2. Then, upload the data and set the index settings using the command `node algoliaDiscount.js -s`.
+3. After that, build the application by executing `npm start`.
+4. Finally, you should be able to access `index.html` at [http://localhost:3000/](http://localhost:3000/).
+
+
 ### Technical Assignment - Part One (1 hrs)
 Spencer and Williams are having a sale on Cameras. They would like you create and run a demo script that reduces the price of everything in the camera category by 20% and then round to the lowest full number. They have provided the raw data as products.json . The data should be transformed and sent to algolia in a single script.
 
